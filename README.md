@@ -35,8 +35,11 @@ Looks good, doesn’t it? An initial long `sync` pulse followed by a sequence wi
 Let’s call them `1` and `0` *bits* (even though they’re not) until the coding is figured out. Then the sequence looks like this:
 
  - `100000000000000000000000000000000000` (1 + 35 bits), then
- - `101010101001010100100101010010100101001001010010101001001010010101001001010100101001010010100101001010010010100101001010010100` (126 bits).
+ - `10101010100101010010010101001010010100100101001010100100101001010100100101010010100101001010010100101001001010010100101001010010` (128 bits).
 
 Okay, I feel slightly uncomfortable with this because of the uneven lengths, but clearly it’s a sequence of `10` and `100`s. So let’s call those `1` and `0`, yielding this shorter representation:
 
- - `111101100110101001011001011001101010101010010101010`
+ - `1111011001101010010110010110011010101010100101010101` (`on` code),
+ - `1111011001101010010110010110011010101010100110101010` (`off` code).
+
+Notice that all but the last eight bits are identical, and that those eight bits are precisely inverted: `01` (times four) for `on`, `10` for off.
