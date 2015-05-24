@@ -19,6 +19,6 @@ Unfortunately I’m no electrical engineer, far from it: I’m utterly clueless.
 ![ikea-ansluta-remote](https://cloud.githubusercontent.com/assets/532114/7789412/9057bdc6-025f-11e5-99b5-0955478883b6.jpg)
 ![433-remote](https://cloud.githubusercontent.com/assets/532114/7789413/94ef9804-025f-11e5-81aa-23dbd05f2c6f.jpg)
 
-The reference remote is extremely simple: a 16 pin IC labelled `HX2262`, a led, a few switches and button pads, and the [crystal oscillator](https://en.wikipedia.org/wiki/Crystal_oscillator) (round metal package) labelled `433.92`.
+The reference remote is extremely simple: an 18 pin IC labelled `HX2262`, a led, a few switches and button pads, and the [crystal oscillator](https://en.wikipedia.org/wiki/Crystal_oscillator) (round metal package) labelled `433.92`.
 
-The *Ansluta* is more crowded, but we see another 16 pin IC, this time labelled *Holtex* `HT48R06A-1`, and a crystal (oblong metal package) labelled `T13.560` – I’m not sure whether there’s any significance to the fact that this is *not* a 433 MHz crystal.
+The *Ansluta* is more crowded, but we see a 16 pin IC, this time labelled *Holtex* `HT48R06A-1`, and a crystal (oblong metal package) labelled `T13.560` – I’m not sure whether there’s any significance to the fact that this is *not* a 433 MHz crystal.
