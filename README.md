@@ -23,7 +23,7 @@ The reference remote is extremely simple: an 18 pin IC labelled `HX2262`, a led,
 
 The *Ansluta* is more crowded, but we see a 16 pin IC, this time labelled *Holtex* `HT48R06A-1`, and a crystal (oblong metal package) labelled `T13.560` – I’m not sure whether there’s any significance to the fact that this is *not* a 433 MHz crystal.
 
-After trying a few of the IC’s pins I see that a led attached to pin 9 (the fifth on the bottom row in the picture) flickers suspiciously suspiciously when pressing the `on`/`off` buttons – this must be it.
+After trying a few of the IC’s pins I see that a led attached to pin 5 (bottom row in the picture) flickers suspiciously when pressing the `on`/`off` buttons — this must be it.
 
 ## Capturing the signal (and possibly decoding it)
 Here’s what I got from that pin (when pressing `on`) — this was repeated seven times:
